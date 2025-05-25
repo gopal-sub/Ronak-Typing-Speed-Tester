@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Typing Speed Tester</h1>
+        <div class="stats">
+            <p>Time: <span id="timer">60s</span></p>
+            <p>Mistake: <span id="mistakes">0</span></p>
+        </div>
+        <div id="quote" onmousedown="return false" onselectstart="return false"></div>
+        <textarea id="quote-input" rows="3" placeholder="Type here"></textarea>
+        <button id="startbtn" onclick="startGame()">Start Game</button>
+         <button id="stopbtn" onclick="displayResults()">Stop Game</button>
+         <div class="results">
+         <h3>Results</h3>
+         <div class="wrapper">
+            <p>Accuracy <span id="accuracy"></span></p>
+            <p>Speed <span id="wpm"></span></p>
+            <p>Mistakes <span id="mistake"></span></p>
+         </div>
+         </div>
+    </div>
+    <script src="paragraph.js"></script>
+    <script src="logic.js"></script>
+</body>
+</html>

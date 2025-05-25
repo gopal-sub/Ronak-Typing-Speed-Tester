@@ -1,0 +1,134 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+
+body{
+    background: url(TypingSpeedTesterBackground.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container{
+    width: 80vmin;
+    padding: 30px;
+    background: rgba(255,255,255,.2);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 2px solid rgba(255,255,255,.5);
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0,0,0,.5)
+    
+}
+
+.title{
+    color: #162938;
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.stats{
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    border-top: 1px solid #162938;
+    border-bottom: 1px solid #162938;
+    color: #162938;
+    padding: 10px;
+}
+
+.stats span{
+    margin-right: 20px;
+    font-weight: 600;
+    color: #162938;
+}
+
+#quote{
+    text-align: justify;
+    margin: 30px 0 30px 0;
+    user-select: none;
+    font-weight: 600;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#quote-input{
+    resize: none;
+    width: 100%;
+    border-radius: 5px solid #162938;
+    outline: none;
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+button{
+    float: right;
+    margin-top: 20px;
+    background: #162938;
+    color: #fff;
+    border: none;
+    padding: 10px 8px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 3px; 
+    transition: .2s;
+}
+
+button:hover{
+    margin-top: 40px;
+}
+
+.results{
+    margin-top: 40px;
+    display: none;
+}
+
+.results h3{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: #162938;
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.wrapper p{
+    margin-top: 10px;
+    font-weight: 600;
+    color: #162938;
+}
+
+.wrapper{
+    margin-top: 10px;
+    font-weight: 600;
+    color: #162938;
+}
+
+.pass{
+    color: #009c31;
+}
+
+.fail{
+    color: #e81c4e
+}
+
+
+
+
+
+
+
+
